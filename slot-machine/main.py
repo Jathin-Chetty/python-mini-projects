@@ -119,7 +119,7 @@ def spin(balance):
     winnings, winning_lines = check_winnings(slots,lines,bet,symbol_value)
     if winnings > 0:
         print(f"you won ${winnings}.")
-        print(f"you won on lines", *winning_lines)
+        print("you won on lines", *winning_lines)
     else:
         print("you did not win on any line")
     return winnings - total_bet
