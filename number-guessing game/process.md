@@ -47,7 +47,7 @@ while True:
 ```
 Then finally print the output of number of guesses the user took
 ```python
-print("you got it in" , gusses ," guesses")
+print("you got it in" , gusses ,"guesses")
 ```
 ## code points learnt
 in the code we start with using the random library.
@@ -86,7 +86,7 @@ Using continue key word
  printing using coma instead of str()
  >printing without using str()
 >```python
-> print("you got it in" , gusses ," guesses")
->#converting gusses to string implicitly be seperating it with comma
+> print("you got it in" , gusses ,"guesses")
+>#converting gusses to string implicitly be seperating it with comma. It will also add spaces automatically
 >```
 
